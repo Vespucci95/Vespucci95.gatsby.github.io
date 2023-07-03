@@ -5,6 +5,6 @@ category: category1
 thumbnail: { thumbnailSrc }
 draft: false
 
-테스트1
+테스트12
 ---
 
