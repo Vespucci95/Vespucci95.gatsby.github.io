@@ -83,7 +83,7 @@
     "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
-    "deploy": "gatsby build && posting -d public -b master -r 'git@github.com:Vespucci95/Vespucci95.github.io.git'",
+    "develop": "gatsby build && posting -d public -b master -r 'git@github.com:Vespucci95/Vespucci95.github.io.git'",
     "start": "npm run develop",
     "build": "gatsby build",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
