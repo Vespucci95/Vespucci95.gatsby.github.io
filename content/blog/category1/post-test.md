@@ -5,6 +5,6 @@ category: category1
 thumbnail: { thumbnailSrc }
 draft: false
 
-테스트123
+github action 테스트1
 ---
 
